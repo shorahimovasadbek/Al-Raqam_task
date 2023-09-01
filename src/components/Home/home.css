@@ -1,0 +1,20 @@
+.Link_home{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.back_home{
+  text-align: center;
+  animation: animation_home_button .7s ease-in-out infinite alternate both;
+}
+
+@keyframes animation_home_button {
+  0%{
+    box-shadow: none;
+  }
+
+  100%{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.41);
+  }
+}

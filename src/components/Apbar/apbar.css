@@ -1,0 +1,27 @@
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-inline-collapsed>.ant-menu-item,
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-inline-collapsed>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-item,
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-inline-collapsed>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-submenu>.ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-inline-collapsed>.ant-menu-submenu>.ant-menu-submenu-title {
+  padding-inline: calc(50% - 17px);
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-inline>.ant-menu-item,
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-vertical>.ant-menu-item,
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-inline>.ant-menu-submenu>.ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-vertical>.ant-menu-submenu>.ant-menu-submenu-title {
+  height: 50px;
+  line-height: 55px;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover,
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-dark>.ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover {
+  background-color: #635AD9;
+}
+
+:where(.css-dev-only-do-not-override-190m0jy).ant-menu-inline-collapsed >.ant-menu-item{
+  padding-inline: calc(50% - 10px - 4px);
+}
+
+:where(.css-dev-only-do-not-override-190m0jy).ant-menu-dark .ant-menu-item-selected{
+  background-color: #454f5c;
+}

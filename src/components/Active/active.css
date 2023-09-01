@@ -1,0 +1,32 @@
+.content_info{
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.content_info::-webkit-scrollbar{
+  width: 5px;
+}
+
+.content_info::-webkit-scrollbar-thumb{
+  background-color: #c1c1c1;
+  border-radius: 20px;
+}
+
+.Card_lang{
+  position: relative;
+  transition: all ease-in-out .5s;
+}
+
+.no-link-style{
+  text-decoration: none;
+}
+
+.Card_lang:hover {
+  box-shadow: rgba(84, 20, 60, 0.4) 5px 5px, rgba(61, 15, 44, 0.3) 10px 10px, rgba(71, 17, 51, 0.2) 15px 15px, rgba(61, 10, 42, 0.1) 20px 20px, rgba(52, 2, 34, 0.05) 25px 25px;
+}
+
+.Card_progress{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
