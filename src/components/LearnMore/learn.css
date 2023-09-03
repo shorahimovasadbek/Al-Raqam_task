@@ -34,16 +34,18 @@
   .img_learnMore{
     width: 30%;
     height: 60px;
-
+    margin-left: 40px;
   }
   
   .iframe_learnMore{
-    width: 100%;
+    width: 90%;
     height: 200px;
+    margin-left: 40px;
   }
 
   .text_learn__more{
     font-size: 15px;
     padding: 0 10px;
+    margin-left: 40px;
   }
 }

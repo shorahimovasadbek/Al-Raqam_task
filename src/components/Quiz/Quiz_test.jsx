@@ -125,7 +125,7 @@ export default function Quiz_test() {
                 :
                 ''
             }
-            <p className='text-center'><Button onClick={NextQuetion} variant='' className='border'>Next<MdOutlineKeyboardDoubleArrowRight /></Button></p>
+            <p className='text-center ms-5'><Button onClick={NextQuetion} variant='' className='border'>Next<MdOutlineKeyboardDoubleArrowRight /></Button></p>
           </div>
           :
           <div className='loader_ring'><RingLoader /></div>

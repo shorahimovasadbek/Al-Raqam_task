@@ -40,9 +40,11 @@
     width: 80%;
     text-align: center;
     color: aqua;
+    margin-left: 40px;
   }
 
   .child_test{
     width: 250px !important;
+    margin-left: 40px;
   }
 }

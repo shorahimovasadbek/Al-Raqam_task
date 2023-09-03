@@ -25,3 +25,7 @@
 :where(.css-dev-only-do-not-override-190m0jy).ant-menu-dark .ant-menu-item-selected{
   background-color: #454f5c;
 }
+
+.menu{
+  z-index: 100;
+}

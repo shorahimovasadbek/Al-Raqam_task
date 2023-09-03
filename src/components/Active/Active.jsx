@@ -22,16 +22,7 @@ export default function Active() {
       }
     }
     setLocalStorage(massiv2) 
-  }, [JSON.parse(localStorage.getItem('massiv'))]);
-
-  function StorageLocal(lang){
-    for(let i = 0; i < setLocal.length; i++){
-      if(setLocal[i].lang === lang){
-        setLocal[i].progress = 50
-      }
-    }
-    localStorage.setItem('massiv', JSON.stringify(setLocal))
-  }
+  }, []);
 
   function CircularProgressWithLabel(props) {
     return (
@@ -67,12 +58,12 @@ export default function Active() {
       {
         (setLocal.length > 0) && setLocal.map((item, index) => {
           return (
-            <div className="col-4 my-4 px-3">
-              <Link onClick={() => StorageLocal(item.lang)} to='/LearnMore' className='no-link-style' state={item}>
-                <Card sx={{ maxWidth: 345, height: 200, display: 'flex', borderRadius: '20px' }} className='Card_lang'>
+            <div className="col-md-4 col-12 my-4 px-3">
+              <Link to={`/Quiz_Test/${item.lang}`} className='no-link-style' state={item}>
+                <Card sx={{ maxWidth: 345, height: 200, display: 'flex', borderRadius: '20px', marginLeft: '50px' }} className='Card_lang'>
                   <CardContent className='text-center'>
                     <CardMedia
-                      sx={{ height: 100, width: 100, borderRadius: '50%' }}
+                      sx={{ height: 100, width: 80, borderRadius: '50%' }}
                       image={item.flag}
                       title={item.name}
                     />

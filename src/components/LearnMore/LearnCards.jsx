@@ -22,7 +22,7 @@ export default function LearnCards() {
     <div className='px-3'>
       <div className='row g-0 align-items-end px-2'>
         <div className="col-md-6 col-12 mb-2">
-          <h2>{cards.state.name}</h2>
+          <h2 className='ms-5'>{cards.state.name}</h2>
           <img src={cards.state.flag} alt="img" className='img_learnMore' />
         </div>
         <div className="col-md-6 col-12">
