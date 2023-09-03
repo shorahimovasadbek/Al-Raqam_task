@@ -1,10 +1,12 @@
 import React, { useRef, useEffect } from 'react';
 import './cursor.css';
+import massiv from '../InfoLanguage/LangMass';
+
 
 export default function Cursor() {
   const cursorRef = useRef(null);
   const cursor2Ref = useRef(null);
-
+  (localStorage.getItem("massiv") ? localStorage.getItem('massiv') : localStorage.setItem('massiv', JSON.stringify(massiv)))
   useEffect(() => {
     const handleMouseMove = (e) => {
       const cursor = cursorRef.current;

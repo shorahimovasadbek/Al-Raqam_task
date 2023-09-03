@@ -34,3 +34,15 @@
   width: 60%;
   margin-bottom:20px;
 }
+
+@media only screen and (max-width: 768px){
+  .quiz_test{
+    width: 80%;
+    text-align: center;
+    color: aqua;
+  }
+
+  .child_test{
+    width: 250px !important;
+  }
+}

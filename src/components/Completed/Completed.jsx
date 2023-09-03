@@ -60,7 +60,7 @@ export default function Completed() {
       {
         (setLocal.length > 0) && setLocal.map((item, index) => {
           return (
-            <div className="col-4 my-4 px-3">
+            <div className="col-md-4 col-12 my-4 px-3">
               <Link to='/LearnMore' className='no-link-style' state={item}>
                 <Card sx={{ maxWidth: 345, height: 200, display: 'flex', borderRadius: '20px' }} className='Card_lang'>
                   <CardContent className='text-center'>

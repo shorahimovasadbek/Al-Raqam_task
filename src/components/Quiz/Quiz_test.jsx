@@ -83,7 +83,7 @@ export default function Quiz_test() {
         console.log(massivAll[i].correct_answer, item, "teng");
         setTimeout(() => {
           NextQuetion()
-        }, 1000);
+        }, 800);
         return
       } else {
         let massiv = [...FalseQuetion]
@@ -92,16 +92,12 @@ export default function Quiz_test() {
         console.log(massivAll[i].correct_answer, item, 'teng emas');
         setTimeout(() => {
           NextQuetion()
-        }, 1000);
+        }, 800);
         return
       }
     }
 
   }
-
-  // console.log(TrueQuetion, FalseQuetion);
-  // console.log(massivAll, 'bu asli');
-  // console.log(CorrectAndInCorrect, 'bu hammasi');
 
   return (
 

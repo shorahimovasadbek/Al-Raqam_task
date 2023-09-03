@@ -16,13 +16,14 @@ export default function MediaCard() {
   useEffect(() => {
     let massiv1 = JSON.parse(localStorage.getItem('massiv'))
     setLocalStorage(massiv1) 
-  }, [JSON.parse(localStorage.getItem('massiv'))]);
+  }, []);
 
   let massiv = JSON.parse(localStorage.getItem('massiv'))
   function StorageLocal(lang){
     for(let i = 0; i < massiv.length; i++){
       if(massiv[i].lang === lang){
         massiv[i].progress = 50
+        massiv[i].level = "Level 2"
       }
     }
     localStorage.setItem('massiv', JSON.stringify(massiv))
@@ -62,7 +63,7 @@ export default function MediaCard() {
       {
         (setLocal.length > 0) && setLocal.map((item, index) => {
           return (
-            <div className="col-4 my-4 px-3">
+            <div className="col-md-4 col-12 my-4 px-3">
               <Link onClick={() => StorageLocal(item.lang)} to='/LearnMore' className='no-link-style' state={item}>
                 <Card sx={{ maxWidth: 345, height: 200, display: 'flex', borderRadius: '20px' }} className='Card_lang'>
                   <CardContent className='text-center'>

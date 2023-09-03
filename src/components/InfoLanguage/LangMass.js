@@ -1,4 +1,4 @@
-let massiv = [
+const massiv = [
   {
     flag: 'https://www.worldatlas.com/r/w1200/img/flag/uk-flag.jpg',
     name: 'English',
@@ -26,7 +26,7 @@ let massiv = [
     level: "Level 1",
     lang: 'fr',
     progress: 0,
-    video: "https://www.youtube.com/embed/91lIllsNR6c?si=eVxPGZa08JW3oGUQ", 
+    video: "https://www.youtube.com/embed/91lIllsNR6c?si=eVxPGZa08JW3oGUQ",
     tips: "Lisez tout ce qui vous tombe sous la main, prenez activement note du nouveau vocabulaire, parlez avec de vrais humains, abonnez-vous à des podcasts ou à des chaînes Youtube (en anglais). Littérature classique, livres de poche, journaux, sites Web, e-mails, vos réseaux sociaux, boîtes de céréales : si c'est en anglais, lisez-le. Pourquoi? Eh bien, ce contenu sera plein de nouveau vocabulaire juteux, ainsi que d'une bonne partie de ce que vous connaissez déjà. Cela vous aide à vous améliorer rapidement, car la réexposition au vocabulaire appris vous donne de nouveaux exemples en contexte, renforçant ainsi ces mots dans votre esprit. D'un autre côté, apprendre de nouveaux mots et expressions est essentiel pour développer votre arsenal de vocabulaire, en particulier dans une langue comme l'anglais avec autant de mots ! Cependant, ne vous contentez pas de lire et de passer à autre chose – ensuite, vous devez…"
   },
   {
@@ -48,7 +48,7 @@ let massiv = [
     progress: 0,
     video: "https://www.youtube.com/embed/rGrBHiuPlT0?si=3FZAv6S0BumJCmfp",
     tips: "손에 넣을 수 있는 모든 것을 읽고, 새로운 어휘를 적극적으로 메모하고, 실제 사람들과 대화하고, 팟캐스트나 유튜브 채널(영어)을 구독하세요. 고전 문학, 문고판, 신문, 웹사이트, 이메일, 소셜 미디어 피드, 시리얼 상자 등 영어로 되어 있으면 읽어보세요. 왜? 글쎄, 이 콘텐츠는 여러분이 이미 알고 있는 상당량의 어휘뿐만 아니라 흥미진진한 새로운 어휘로 가득 차 있을 것입니다. 학습한 어휘에 다시 노출되면 문맥에 맞는 새로운 예가 제공되어 마음속에 해당 단어가 강화되므로 이는 빠른 실력 향상에 도움이 됩니다. 반면에, 새로운 단어와 표현을 배우는 것은 어휘력을 키우는 데 필수적입니다. 특히 단어가 너무 많은 영어와 같은 언어에서는 더욱 그렇습니다! 하지만 그냥 읽고 넘어가지 마세요. 다음으로 해야 할 일은…"
-  }, 
+  },
   {
     flag: 'https://c8.alamy.com/comp/BJMPJ0/italy-flag-outline-BJMPJ0.jpg',
     name: 'Italian',
@@ -60,5 +60,5 @@ let massiv = [
     tips: "Leggi tutto ciò su cui riesci a mettere le mani, prendi nota attivamente del nuovo vocabolario, parla con persone reali, iscriviti ai podcast o ai canali Youtube (in inglese). Letteratura classica, tascabili, giornali, siti web, e-mail, i feed dei social media, scatole di cereali: se è in inglese, leggilo. Perché? Bene, questo contenuto sarà pieno di nuovi interessanti vocaboli, oltre a una discreta quantità di parole che già conosci. Questo ti aiuta a migliorare rapidamente, poiché la riesposizione al vocabolario appreso ti fornisce nuovi esempi nel contesto, rafforzando quindi quelle parole nella tua mente. D’altra parte, imparare nuove parole ed espressioni è essenziale per costruire il tuo arsenale di vocabolario, soprattutto in una lingua come l’inglese con così tante parole! Tuttavia, non limitarti a leggere e andare avanti: dopo, devi..."
   }
 ]
-
 export default massiv
+

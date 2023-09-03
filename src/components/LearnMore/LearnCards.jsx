@@ -12,6 +12,7 @@ export default function LearnCards() {
     for(let i = 0; i < massiv.length; i++){
       if(massiv[i].lang === lang){
         massiv[i].progress = 100
+        massiv[i].level = "Completed"
       }
     }
     localStorage.setItem('massiv', JSON.stringify(massiv))
@@ -19,18 +20,18 @@ export default function LearnCards() {
 
   return (
     <div className='px-3'>
-      <div className='row g-0 align-items-end'>
-        <div className="col-6">
+      <div className='row g-0 align-items-end px-2'>
+        <div className="col-md-6 col-12 mb-2">
           <h2>{cards.state.name}</h2>
-          <img src={cards.state.flag} alt="img" width="70%" height='300px' />
+          <img src={cards.state.flag} alt="img" className='img_learnMore' />
         </div>
-        <div className="col-6">
-          <iframe  src={cards.state.video} frameborder="0" width='100%' height={300}></iframe>
+        <div className="col-md-6 col-12">
+          <iframe className='iframe_learnMore'  src={cards.state.video} frameborder="0"></iframe>
         </div>
       </div>
       <div className="row g-0">
         <div className="col-12">
-          <p className='mt-4 text-light'>{cards.state.tips}</p>
+          <p className='mt-4 text-light text_learn__more'>{cards.state.tips}</p>
         </div>
       </div>
       <p onClick={() => StorageLocal(cards.state.lang)} className='text-center'><Button  variant=""> <Link className='Link_next_task' to = {`/Quiz_Test/${cards.state.lang}`}>Next task </Link> <BsFillArrowRightSquareFill className='ms-2 anima' /></Button></p>
